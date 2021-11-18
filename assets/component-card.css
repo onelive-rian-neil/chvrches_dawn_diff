@@ -4,14 +4,8 @@
   text-decoration: none;
 }
 
-.card-information + .card {
-  margin-bottom: 1.3rem;
-}
-
-@media screen and (min-width: 750px) {
-  .card-information + .card {
-    margin-bottom: 1.7rem;
-  }
+.card + .card-information {
+  margin-top: 1.2rem;
 }
 
 .card.card--soft {
@@ -19,11 +13,26 @@
   color: rgb(var(--color-foreground));
 }
 
+.card__text {
+  display: flex;
+  align-items: center;
+}
+
+.card .icon-arrow {
+  width: 1.5rem;
+}
+
 .card .icon-wrap {
   margin-left: 0.8rem;
   white-space: nowrap;
   transition: transform var(--duration-short) ease;
   overflow: hidden;
+}
+
+.card .h1 .icon-arrow,
+.card .h2 .icon-arrow {
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
 }
 
 .card--media {
@@ -36,10 +45,6 @@
   justify-content: center;
 }
 
-.card--text-only.card--product {
-  position: static;
-}
-
 .card--text-only::before {
   content: '';
   display: block;
@@ -47,15 +52,12 @@
 }
 
 .card--product {
+  border: 0.1rem solid rgba(var(--color-foreground), 0.04);
   position: relative;
 }
 
 .card--stretch {
   height: 100%;
-}
-
-.card--outline:not(.card--soft) {
-  border: calc(0.1rem / var(--font-body-scale)) solid rgba(var(--color-foreground), 0.04);
 }
 
 .card--light-border {
@@ -107,7 +109,7 @@
 
 .card--text-only .card__content {
   grid-row: 2;
-  justify-self: flex-start;
+  justify-self: center;
   margin-bottom: 6rem;
   margin-top: 5rem;
 }
@@ -129,6 +131,11 @@
 
 .card--text-only .card__content + .card__badge {
   margin-top: -5rem;
+}
+
+.card--search .card__content {
+  justify-self: flex-start;
+  text-align: left;
 }
 
 .media + .card__content {
@@ -160,9 +167,12 @@
   word-break: break-word;
 }
 
+.card--text-only .card__text {
+  text-align: center;
+}
+
 .card-information__text {
   display: block;
-  margin: 0;
   padding-right: 1.2rem;
 }
 
@@ -171,7 +181,7 @@
 }
 
 .card-information__wrapper > * {
-  line-height: calc(1 + 0.4 / var(--font-body-scale));
+  line-height: 1.4;
   color: rgb(var(--color-foreground));
 }
 
@@ -179,14 +189,8 @@
   color: rgb(var(--color-foreground));
 }
 
-.card-information__wrapper > .rating {
-  margin-top: 0.4rem;
-}
-
-.card-information__wrapper
-  > *:not(.visually-hidden:first-child)
-  + *:not(.rating) {
-  margin-top: 0.7rem;
+.card-information__wrapper > *:not(.visually-hidden:first-child) + * {
+  margin-top: 1.1rem;
 }
 
 .card-information__wrapper .caption {
@@ -195,37 +199,9 @@
 
 .card-wrapper {
   color: inherit;
-  display: flex;
-  flex-direction: column;
+  display: block;
   position: relative;
   text-decoration: none;
-}
-
-.card-wrapper .card-information {
-  order: 1;
-}
-
-.card-wrapper .full-unstyled-link::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-.card-wrapper .full-unstyled-link:focus-visible {
-  outline: 0;
-  box-shadow: none;
-}
-
-.card-wrapper .full-unstyled-link:focus-visible::after {
-  outline: .2rem solid rgba(var(--color-foreground),.5);
-  outline-offset: 0.3rem;
-  box-shadow: 0 0 0 .3rem rgb(var(--color-background)),0 0 .5rem .4rem rgba(var(--color-foreground),.3);
 }
 
 .card-wrapper:focus-within .card {
@@ -282,8 +258,7 @@
 
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
-  .card-wrapper .media.media--hover-effect > img:only-child,
-  .card--search img {
+  .card-wrapper .media.media--hover-effect > img:only-child {
     transition: transform var(--duration-long) ease;
   }
 
@@ -309,16 +284,25 @@
     text-underline-offset: 0.3rem;
   }
 
+  .card-wrapper:hover .card__text {
+    transition: var(--duration-long) ease;
+    transform: scale(1.06);
+  }
+
+  .card--search img {
+    transition: transform var(--duration-default) ease;
+  }
+  
   .card-wrapper:hover .card--search img {
     transform: scale(1.05);
   }
-
-  .card-wrapper:hover .card__text {
+  
+  .card-wrapper:hover .card__heading {
     text-decoration: underline;
     text-underline-offset: 0.3rem;
   }
-
-  .card-wrapper:hover .card--soft {
+  
+  .card-wrapper:hover .card.card--search {
     background-color: rgba(var(--color-card-hover), 0.06);
     transition: background-color var(--duration-long) ease;
   }

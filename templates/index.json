@@ -1,106 +1,412 @@
 {
   "sections": {
-    "image_banner": {
+    "1636301255bda97b8f": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
-        "heading": {
+        "1636301255bda97b8f-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "SCREEN VIOLENCE"
           }
         },
-        "button": {
+        "1636301255bda97b8f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "The  Latest Album from CHVRCHES"
+          }
+        },
+        "1636301255bda97b8f-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "button_label_1": "SHOP THE COLLECTION",
+            "button_link_1": "shopify:\/\/collections\/screen-violence",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
-      ]
+        "1636301255bda97b8f-0",
+        "1636301255bda97b8f-1",
+        "1636301255bda97b8f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CHVRCHES_screenviolencedesktopbg-lowopacity.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "custom",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
+    "1635195729af727140": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "auto_play": false,
+        "video_url": "https:\/\/player.vimeo.com\/video\/577736909",
+        "description": "",
+        "full_width": true
+      }
+    },
+    "1633366438ab9efacb": {
+      "type": "tour",
+      "disabled": true,
+      "settings": {
+        "title": "UPCOMING SHOWS",
+        "page_width": true,
+        "background_style": "primary"
+      }
     },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "title": "NEW TO THE SHOP",
+        "collection": "new-in-the-shop-1",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": false
       }
     },
-    "collage": {
-      "type": "collage",
+    "1636303971373ca9b1": {
+      "type": "image-banner",
       "blocks": {
-        "video": {
-          "type": "video"
+        "1636303971373ca9b1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WINTER 2021 COLLECTION"
+          }
         },
-        "product": {
-          "type": "product"
+        "1636303971373ca9b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "Seasonal Screen Violence Exclusives"
+          }
         },
-        "collection": {
-          "type": "collection"
+        "1636303971373ca9b1-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/winter-2021-collection",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
+        "1636303971373ca9b1-0",
+        "1636303971373ca9b1-1",
+        "1636303971373ca9b1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CHVRCHES_screenviolencedesktopbg-newwinter.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "custom",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
     },
-    "video": {
-      "type": "video"
-    },
-    "multi_column": {
-      "type": "multicolumn",
+    "1637261757cc5ef929": {
+      "type": "image-with-text",
       "blocks": {
-        "column1": {
-          "type": "column"
+        "16372617569d8203a5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "2021 TOUR MERCH"
+          }
         },
-        "column2": {
-          "type": "column"
+        "16372617569d8203a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get your faves now & skip the line at the merch booth.<\/p>"
+          }
         },
-        "column3": {
-          "type": "column"
+        "16372617569d8203a5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ]
+        "16372617569d8203a5-0",
+        "16372617569d8203a5-1",
+        "16372617569d8203a5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0502.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16363102520417a854": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "2021-tour-merch",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "1636301324c27985d9": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1636301324c27985d9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ELEVATED GIFTS"
+          }
+        },
+        "1636301324c27985d9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Limited edition Screen Violence necklace, hair pins and duster ring available now.<\/p>"
+          }
+        },
+        "1636301324c27985d9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP JEWELRY",
+            "button_link": "shopify:\/\/collections\/jewelry"
+          }
+        }
+      },
+      "block_order": [
+        "1636301324c27985d9-0",
+        "1636301324c27985d9-1",
+        "1636301324c27985d9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CHVR-HOLIDAY2021-22.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163632753638112345": {
+      "type": "collection-list",
+      "blocks": {
+        "b228ea70-b49f-491b-b74c-54bcdf35bc4a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "holiday-gift-guide"
+          }
+        },
+        "163632753638112345-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        },
+        "163632753638112345-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "b228ea70-b49f-491b-b74c-54bcdf35bc4a",
+        "163632753638112345-0",
+        "163632753638112345-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16363042572cf95dff": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "APPAREL",
+        "collection": "apparel",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "1636300982f69e181f": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "MUSIC",
+        "collection": "music",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "1636333421e1830504": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636333421e1830504-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "COLLECTORS EDITION VINYL"
+          }
+        },
+        "1636333421e1830504-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop collector series vinyl and the entire CHVRCHES catalogue.<\/p>"
+          }
+        },
+        "1636333421e1830504-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY VINYL",
+            "button_link": "shopify:\/\/collections\/vinyl"
+          }
+        }
+      },
+      "block_order": [
+        "1636333421e1830504-0",
+        "1636333421e1830504-1",
+        "1636333421e1830504-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CHVRC_bonemockup.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1636328540879f6b61": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALL FORMATS",
+        "collection": "music",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "16363356503462694a": {
+      "type": "newsletter",
+      "blocks": {
+        "16363356503462694a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign up for merch updates"
+          }
+        },
+        "16363356503462694a-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Get instant updates when new things happen in the shop!<\/p>"
+          }
+        },
+        "16363356503462694a-2": {
+          "type": "email_form",
+          "settings": {
+            "email_overwrite": "<div class=\"klaviyo-form-KA3rVu\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "16363356503462694a-0",
+        "16363356503462694a-1",
+        "16363356503462694a-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "1636327593d662abd7": {
+      "type": "image-banner",
+      "blocks": {
+        "1636327593d662abd7-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "MUSIC"
+          }
+        },
+        "1636327593d662abd7-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "1636327593d662abd7-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "SHOP ALL FORMATS",
+            "button_link_1": "shopify:\/\/collections\/music",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1636327593d662abd7-0",
+        "1636327593d662abd7-1",
+        "1636327593d662abd7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ALL00210_RGB_fin_5mb.jpg",
+        "desktop_text_box_position": "flex-start",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": true
+      }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
+    "1636301255bda97b8f",
+    "1635195729af727140",
+    "1633366438ab9efacb",
     "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "1636303971373ca9b1",
+    "1637261757cc5ef929",
+    "16363102520417a854",
+    "1636301324c27985d9",
+    "163632753638112345",
+    "16363042572cf95dff",
+    "1636300982f69e181f",
+    "1636333421e1830504",
+    "1636328540879f6b61",
+    "16363356503462694a",
+    "1636327593d662abd7"
   ]
 }
